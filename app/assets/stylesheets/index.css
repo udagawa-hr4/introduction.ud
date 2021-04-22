@@ -806,6 +806,13 @@ body {
   right: 2%;
   font-size: 18px;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .profile-page .profile-content .profile-text .name-area {
@@ -873,6 +880,31 @@ body {
 }
 
 .profile-page .profile-content .profile-text .intro-area .my-intro {
+  width: 70%;
+  font-size: 18px;
+  color: black;
+  font-family: Kosugi;
+  letter-spacing: 0.1em;
+}
+
+.profile-page .profile-content .profile-text .contact-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.profile-page .profile-content .profile-text .contact-area .contact-title {
+  width: 15%;
+  color: #82d668;
+  text-shadow: 2px 2px 0px black;
+}
+
+.profile-page .profile-content .profile-text .contact-area .my-contact {
   width: 70%;
   font-size: 18px;
   color: black;

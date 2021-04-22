@@ -568,6 +568,24 @@ body {
           letter-spacing: 0.1em;
         }
       }
+      & .contact-area{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 5%;
+        & .contact-title{
+          width: 15%;
+          color: rgb(130, 214, 104);
+          text-shadow: 2px 2px 0px $cBlack;
+        }
+        & .my-contact{
+          width: 70%;
+          font-size: 18px;
+          color: $cBlack;
+          font-family:Kosugi;
+          letter-spacing: 0.1em;
+        }
+      }
     }
   }
   & .sub-page_btn{
